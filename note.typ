@@ -1,6 +1,8 @@
 #let note(title, body) = {
     align(center)[#text(title, 1.75em, weight: "bold")]
-    
+
+    set text(font: ("Times", "Songti SC"))
+
     set par(justify: true)
     
     set heading(numbering: "1.1")
